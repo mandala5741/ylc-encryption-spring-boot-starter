@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.mandala5741</groupId>
-    <artifactId>ylc-smart-spring-boot-starter</artifactId>
+    <artifactId>ylc-encryption-spring-boot-starter</artifactId>
     <version>1.0.2</version>
-    <name>Smart Spring Boot Starter</name>
+    <name>encryption Spring Boot Starter</name>
     <description>字段加密解密 Spring Boot Starter</description>
-    <url>https://github.com/mandala5741/ylc-smart-spring-boot-starter</url>
+    <url>https://github.com/mandala5741/ylc-encryption-spring-boot-starter</url>
 
     <properties>
         <hutool.version>5.8.42</hutool.version>
@@ -44,9 +44,9 @@
     </developers>
 
     <scm>
-        <url>https://github.com/mandala5741/ylc-smart-spring-boot-starter</url>
-        <connection>scm:git:https://github.com/mandala5741/ylc-smart-spring-boot-starter.git</connection>
-        <developerConnection>scm:git:https://github.com/mandala5741/ylc-smart-spring-boot-starter.git</developerConnection>
+        <url>https://github.com/mandala5741/ylc-encryption-spring-boot-starter</url>
+        <connection>scm:git:https://github.com/mandala5741/ylc-encryption-spring-boot-starter.git</connection>
+        <developerConnection>scm:git:https://github.com/mandala5741/ylc-encryption-spring-boot-starter.git</developerConnection>
     </scm>
 
     <dependencies>
@@ -76,12 +76,6 @@
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk18on</artifactId>
             <version>${bouncycastle.version}</version>
-        </dependency>
-        <!-- Utilities -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>${commons-lang3.version}</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
