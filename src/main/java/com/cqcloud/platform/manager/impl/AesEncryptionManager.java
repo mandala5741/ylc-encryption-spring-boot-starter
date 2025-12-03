@@ -1,6 +1,7 @@
 package com.cqcloud.platform.manager.impl;
 
 
+import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.cqcloud.platform.config.EncryptionProperties;
 import com.cqcloud.platform.enums.AlgorithmType;
 import com.cqcloud.platform.exception.DecryptException;
@@ -13,7 +14,6 @@ import com.cqcloud.platform.strategy.impl.Sm4GcmEncryptionStrategy;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.StringUtils;
 
 import java.util.Base64;
 import java.util.HashMap;
