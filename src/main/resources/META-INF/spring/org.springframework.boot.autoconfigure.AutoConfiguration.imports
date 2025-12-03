@@ -1,0 +1,2 @@
+com.cqcloud.platform.config.EncryptionAutoConfiguration
+com.cqcloud.platform.config.MybatisPlusConfig

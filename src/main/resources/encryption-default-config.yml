@@ -1,0 +1,26 @@
+# 加密默认配置
+spring:
+  encryption:
+    enabled: true
+    default-algorithm: AES_GCM
+    generate-key-on-startup: false
+    mybatis-plus-enabled: true
+    log-enabled: false
+    cache-enabled: true
+    cache-max-size: 1000
+    cache-expire-seconds: 300
+    include-patterns:
+      - "*phone*"
+      - "*email*"
+      - "*idCard*"
+      - "*password*"
+      - "*identity*"
+      - "*mobile*"
+    exclude-patterns:
+      - "*id"
+      - "*code"
+      - "*no"
+    keys:
+      - id: default
+        algorithm: AES_GCM
+        description: "默认加密密钥"
