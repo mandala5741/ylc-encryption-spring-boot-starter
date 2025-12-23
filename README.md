@@ -33,7 +33,7 @@ mybatis:
 
 ## 引入依赖
 <dependency>
-    <groupId>io.github.mandala5741</groupId>
+    <groupId>cloud.cqcloud.platform</groupId>
     <artifactId>ylc-smart-spring-boot-starter</artifactId>
     <version>1.0.2</version>
 </dependency>
