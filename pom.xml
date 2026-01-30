@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.cqylc.platform</groupId>
     <artifactId>ylc-encryption-spring-boot-starter</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.3</version>
     <name>encryption Spring Boot Starter</name>
     <description>字段加密解密 Spring Boot Starter</description>
     <url>https://github.com/mandala5741/ylc-encryption-spring-boot-starter</url>

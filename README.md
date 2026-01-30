@@ -34,8 +34,8 @@ mybatis:
 ## 引入依赖
 <dependency>
     <groupId>cn.cqylc.platform</groupId>
-    <artifactId>ylc-smart-spring-boot-starter</artifactId>
-    <version>1.0.2</version>
+    <artifactId>ylc-encryption-spring-boot-starter</artifactId>
+    <version>1.0.3</version>
 </dependency>
 
 
